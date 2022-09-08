@@ -19,7 +19,7 @@ select * from employees where last_name like '%e' and last_name not like 'E%';
 select * from employees where last_name like 'E%' and last_name like '%e'; 
 # 899 people have last names starting and ending with e
  select * from employees where last_name like '%e' and last_name not like 'e%' ;
- #23393 people have last names ending with e
+ #24292 people have last names ending with e
  
  select * from employees where hire_date between '1990-01-01' and '2000-01-01';
  #135,215 people were hired in the 90's
