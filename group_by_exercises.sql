@@ -39,7 +39,7 @@ from employees
 group by username
 having count(username) > 1
 ;
-# 13,251 dupicated usernames
+# 13,251 duplicated usernames
 
 
 
